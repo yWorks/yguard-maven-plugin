@@ -20,7 +20,7 @@ Usage
       <plugin>
         <groupId>com.yworks.maven.plugins</groupId>
         <artifactId>yguard-maven-plugin</artifactId>
-        <version>5.0.0</version>
+        <version>1.0.0</version>
         <configuration>
           <yguardVersion>5.0.0</yguardVersion>
           <yguard>
@@ -34,7 +34,7 @@ Usage
         <executions>
           <execution>
             <goals>
-              <goal>rename</goal>
+              <goal>run</goal>
             </goals>
           </execution>
         </executions>
