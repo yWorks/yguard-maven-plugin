@@ -3,11 +3,37 @@
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
+
   <groupId>com.yworks.maven.plugins</groupId>
   <artifactId>yguard-maven-plugin</artifactId>
-  <packaging>maven-plugin</packaging>
   <version>1.0.0</version>
+  <packaging>maven-plugin</packaging>
   <url>https://github.com/yWorks/yguard-maven-plugin</url>
+
+  <name>yGuard Maven Plugin</name>
+  <description>A Maven plugin to run the open-source Java obfuscation tool yGuard.</description>
+
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>yGuard Development Team</name>
+      <email>yguard@yworks.com</email>
+      <organization>yWorks GmbH</organization>
+      <organizationUrl>https://www.yworks.com</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:https://github.com/yWorks/yguard-maven-plugin.git</connection>
+    <developerConnection>scm:git:https://github.com/yWorks/yguard-maven-plugin.git</developerConnection>
+    <url>https://github.com/yWorks/yguard-maven-plugin</url>
+  </scm>
 
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
